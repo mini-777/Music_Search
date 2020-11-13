@@ -8,25 +8,29 @@
   }
 
 .Music {
-    background-color: white;
+    background-color: rgb(209, 230, 241);
+    height: 250px;
+    width: 900px;
 }
 .coverart {
-    height: 150px;
-    width: 150px;
+    height: 250px;
+    width: 250px;
     float: left;
 }
 a{
     text-decoration:none;
 }
 .music__title, .music__subtitle{
-    color: grey;
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 53, 91);
+    font-family: Arial;
 }
 .music__title{
+    font-size: 60px;
+}
+.music__subtitle{
     font-size: 30px;
 }
 .music__data { 
     float: left;
     margin-left: 10px;
-    margin-top: -5px;
 }
