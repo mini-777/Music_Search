@@ -20,9 +20,11 @@ const Modal = ({ isOpen, close, images, titles, subtitles}) => {
                 {subtitles}
                 </p>
               </div>
+              
               <div className="button-wrap">
-                <button onClick={close}>Confirm</button>
+              <div className="botton" href="javascript:;" onClick={close}>Confirm</div>
               </div>
+             
             </div>
           </ReactTransitionGroup>
           :

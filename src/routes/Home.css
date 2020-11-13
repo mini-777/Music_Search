@@ -46,3 +46,8 @@
 .input_div {
 text-align: center;
 }
+.page {
+  margin-top: 40px;
+  font-size: 20px; 
+  text-align: center;
+}

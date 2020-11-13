@@ -13,7 +13,9 @@ class Search extends React.Component {
     isModalOpen: false,
     image:"",
     title:"",
-    subtitle:""
+    subtitle:"",
+    i: 0,
+    j: 5
   };
 
 
@@ -28,12 +30,13 @@ class Search extends React.Component {
     this.setState({ isModalOpen: false }); 
   }
   
-  getTest = async () => {
+  getTest = () => {
     const search = this.state.value;
-    const options = {
+    for(var i=0;i<=20;i+=5){
+    var options = {
       method: 'GET',
       url: 'https://shazam.p.rapidapi.com/search',
-      params: {term: search, locale: 'en-US', offset: '0', limit: '5'},
+      params: {term: search, locale: 'en-US', offset: i, limit: '5'},
       headers: {
         'x-rapidapi-key': '424ced4acemsh23df6f0208aa7cap13e211jsn792b6f9f6e00',
         'x-rapidapi-host': 'shazam.p.rapidapi.com'
@@ -41,25 +44,31 @@ class Search extends React.Component {
     };
     if (search === "") {
       this.setState({movies: [], isLoading: false})
-    }else{
+    }else if(this.state.isModalOpen == false){
     axios.request(options).then((response) => {
-      this.setState({movies: response.data.tracks.hits, isLoading: false});
+      this.setState({movies: this.state.movies.concat(response.data.tracks.hits), isLoading: false});
+      console.log(this.state.movies[0][0]);
       console.log(this.state.movies);
     }).catch((error) => {
       console.error(error);
     });
   }
+}
   };
 
-  componentDidMount() {
+  setPage = (pageNum) => {
+    this.setState({i:pageNum, j:pageNum+5});
+  }
+  componentDidMount = () => {
     this.getTest();
   };
 
-  handleChange = (e : any) => {
+  handleChange = (e) => {
     this.setState({value: e.target.value});
   };
 
-  handleSubmit = (e : any) => {
+  handleSubmit = (e) => {
+    this.setState({movies: []})
     e.preventDefault();
     this.getTest();
   };
@@ -82,12 +91,22 @@ class Search extends React.Component {
               </div>
 
                 <ul className="list">
-                  {movies.map(movie => (<SearchMusic key={movie.track.key} url={movie.track.url} images={movie.track.images.coverart} title={movie.track.title} subtitle={movie.track.subtitle} me={this} />))}
+                  {movies.slice(this.state.i, this.state.j).map((movies) => (<SearchMusic key={movies.track.key} url={movies.track.url} images={movies.track.images.coverart} title={movies.track.title} subtitle={movies.track.subtitle} me={this} />))}
+                  <div className="page">
+              
+                  <a href="javascript:;" onClick={() => this.setPage(0)} >1</a> | <a href="#" onClick={() => this.setPage(5)}>2</a> | <a href="#" onClick={() => this.setPage(10)}>3</a> | <a href="#" onClick={() => this.setPage(15)}>4</a> | <a href="#" onClick={() => this.setPage(20)}>5</a>  
+                    
+                </div>
                 </ul>
+                
+                </div>
+                
                 <Modal isOpen={this.state.isModalOpen} close={this.closeModal} titles={this.state.title} subtitles={this.state.subtitle} images={this.state.image} />
-              </div>
-          
-          </form>)
+                </form>
+                
+              
+              
+          )
       }
     </section>);
   }

@@ -25,10 +25,10 @@ a{
     font-family: Arial;
 }
 .music__title{
-    font-size: 60px;
+    font-size: 40px;
 }
 .music__subtitle{
-    font-size: 30px;
+    font-size: 20px;
 }
 .music__data { 
     float: left;

@@ -7,7 +7,7 @@ import Modal from '../components/Modal/Modal';
 
 function SearchMusic({title, subtitle, url, images, me}){
     return (
-        <a href="#" onClick={() => me.openModal(images, title, subtitle)}>
+        <a href="javascript:;" onClick={() => me.openModal(images, title, subtitle)}>
         <div className="Music">
             <li>
             
