@@ -15,7 +15,7 @@ const Modal = ({ isOpen, close, images, titles, subtitles}) => {
             <div className="Modal">
               <p className="title">{titles}</p>
               <div className="content">
-              <img src={images}></img>
+              <a href={"https://www.youtube.com/results?search_query="+titles}><img src={images}></img></a>
                 <p>
                 {subtitles}
                 </p>
