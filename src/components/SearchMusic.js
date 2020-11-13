@@ -2,12 +2,15 @@ import React from "react";
 import {Link} from "react-router-dom";
 import PropTypes from "prop-types";
 import "./SearchMusic.css";
-function SearchMusic({title, subtitle, url, images}){
+import Search from "../routes/Search";
+import Modal from '../components/Modal/Modal';
+
+function SearchMusic({title, subtitle, url, images, me}){
     return (
-        
+        <a href="#" onClick={() => me.openModal(images, title, subtitle)}>
         <div className="Music">
             <li>
-            <a href={url} target="_blank">
+            
                 <img className="coverart" src={images} alt={title} title={title}></img>
                 <div className="music__data">
                     <h3 className="music__title">{title.replace(/<b>/gi,"").replace(/<\/b>/gi,"")}</h3>
@@ -15,9 +18,10 @@ function SearchMusic({title, subtitle, url, images}){
                         <span></span> {subtitle}
                     </p>
                 </div>
-            </a>
+            
             </li>
         </div>
+        </a>
     )
 };
 

@@ -2,17 +2,32 @@ import React from 'react';
 import axios from 'axios';
 import SearchMusic from '../components/SearchMusic';
 import "./Home.css";
-
+import Modal from '../components/Modal/Modal';
 
 class Search extends React.Component {
   state = {
     isLoading: true,
     movies: [],
     value: "",
-    name: ""
+    name: "",
+    isModalOpen: false,
+    image:"",
+    title:"",
+    subtitle:""
   };
 
 
+  openModal = (images, titles, subtitles) => {
+    this.setState({ isModalOpen: true});
+    this.setState({ image: images});
+    this.setState({ title: titles});
+    this.setState({ subtitle: subtitles});
+  }
+  
+  closeModal = () => {
+    this.setState({ isModalOpen: false }); 
+  }
+  
   getTest = async () => {
     const search = this.state.value;
     const options = {
@@ -62,12 +77,14 @@ class Search extends React.Component {
             <div>
               <div className="input_div">
                 <h1>음악 검색</h1>
+                
                 <input className="input_search" type="text" value={this.state.value} onChange={this.handleChange} placeholder="음악을 검색해 보세요."/>
               </div>
-        
+
                 <ul className="list">
-                {movies.map(movie => (<SearchMusic key={movie.track.key} url={movie.track.url} images={movie.track.images.coverart} title={movie.track.title} subtitle={movie.track.subtitle} />))}
+                  {movies.map(movie => (<SearchMusic key={movie.track.key} url={movie.track.url} images={movie.track.images.coverart} title={movie.track.title} subtitle={movie.track.subtitle} me={this} />))}
                 </ul>
+                <Modal isOpen={this.state.isModalOpen} close={this.closeModal} titles={this.state.title} subtitles={this.state.subtitle} images={this.state.image} />
               </div>
           
           </form>)
