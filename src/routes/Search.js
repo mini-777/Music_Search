@@ -64,10 +64,12 @@ class Search extends React.Component {
                 <h1>음악 검색</h1>
                 <input className="input_search" type="text" value={this.state.value} onChange={this.handleChange} placeholder="음악을 검색해 보세요."/>
               </div>
-              <div className="movies">
+        
+                <ul className="list">
                 {movies.map(movie => (<SearchMusic key={movie.track.key} url={movie.track.url} images={movie.track.images.coverart} title={movie.track.title} subtitle={movie.track.subtitle} />))}
+                </ul>
               </div>
-            </div>
+          
           </form>)
       }
     </section>);

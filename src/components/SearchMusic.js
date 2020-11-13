@@ -1,19 +1,22 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import PropTypes from "prop-types";
-
+import "./SearchMusic.css";
 function SearchMusic({title, subtitle, url, images}){
     return (
+        
         <div className="Music">
+            <li>
             <a href={url} target="_blank">
-                <img src={images} alt={title} title={title}></img>
+                <img className="coverart" src={images} alt={title} title={title}></img>
                 <div className="music__data">
                     <h3 className="music__title">{title.replace(/<b>/gi,"").replace(/<\/b>/gi,"")}</h3>
                     <p className="music__subtitle">
-                        <span>가수 : </span> {subtitle}
+                        <span></span> {subtitle}
                     </p>
                 </div>
             </a>
+            </li>
         </div>
     )
 };
