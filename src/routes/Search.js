@@ -91,7 +91,7 @@ class Search extends React.Component {
               </div>
 
                 <ul className="list">
-                  {movies.slice(this.state.i, this.state.j).map((movies) => (<SearchMusic key={movies.track.key} url={movies.track.url} images={movies.track.images.coverart} title={movies.track.title} subtitle={movies.track.subtitle} me={this} />))}
+                  {movies.slice(this.state.i, this.state.j).map((movies) => (<SearchMusic key={movies.track.key} id={movies.track.key} url={movies.track.url} images={movies.track.images.coverart} title={movies.track.title} subtitle={movies.track.subtitle} me={this} />))}
                   <div className="page">
               
                   <a href="javascript:;" onClick={() => this.setPage(0)} >1</a> | <a href="#" onClick={() => this.setPage(5)}>2</a> | <a href="#" onClick={() => this.setPage(10)}>3</a> | <a href="#" onClick={() => this.setPage(15)}>4</a> | <a href="#" onClick={() => this.setPage(20)}>5</a>  

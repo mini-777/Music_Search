@@ -4,11 +4,22 @@ import PropTypes from "prop-types";
 import "./SearchMusic.css";
 import Search from "../routes/Search";
 import Modal from '../components/Modal/Modal';
+import Detail from "../routes/Detail";
 
-function SearchMusic({title, subtitle, url, images, me}){
+function SearchMusic({id, title, subtitle, url, images, me}){
     return (
-        <a href="javascript:;" onClick={() => me.openModal(images, title, subtitle)}>
+       
+        
         <div className="Music">
+        <Link
+        to={{
+          pathname: `/music/${id}`,
+          state: {
+            id, title, subtitle, images, url
+          }
+        }}
+      >
+          {/* <a href="javascript:;" onClick={() => me.openModal(images, title, subtitle)}></a> */}
             <li>
             
                 <img className="coverart" src={images} alt={title} title={title}></img>
@@ -20,8 +31,11 @@ function SearchMusic({title, subtitle, url, images, me}){
                 </div>
             
             </li>
+            {/* </a> */}
+            </Link>
         </div>
-        </a>
+        
+       
     )
 };
 

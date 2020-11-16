@@ -5,14 +5,13 @@ import About from "./routes/About";
 import Detail from "./routes/Detail";
 import Navigation from "./components/Navigation";
 import "./App.css";
-import Modal from './components/Modal/Modal';
 function App() {
   return (
     <HashRouter>
       <Navigation />
       <Route path="/" exact={true} component={Search} />
       <Route path="/about" component={About} />
-      <Route path="/music/:id" component={Modal} />
+      <Route path="/music/:id" component={Detail} />
     </HashRouter>
   );
 }
