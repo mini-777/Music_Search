@@ -1,0 +1,10 @@
+.frame {
+    text-align: center;
+    background-color: white;
+    margin-left: 150px;
+    margin-top: 50px;
+    border : 1px solid white;
+    border-radius: 20px;
+    width: 500px;
+    height: 500px;
+}

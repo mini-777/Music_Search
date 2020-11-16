@@ -3,10 +3,11 @@ import axios from 'axios';
 import SearchMusic from '../components/SearchMusic';
 import "./Home.css";
 import Modal from '../components/Modal/Modal';
-
+import PageNum from '../components/pageNum';
+import sample from './sample.json';
 class Search extends React.Component {
   state = {
-    isLoading: true,
+    isLoading: false,
     movies: [],
     value: "",
     name: "",
@@ -15,7 +16,9 @@ class Search extends React.Component {
     title:"",
     subtitle:"",
     i: 0,
-    j: 5
+    j: 5,
+    index: 0,
+    showPageNum: false
   };
 
 
@@ -32,35 +35,39 @@ class Search extends React.Component {
   
   getTest = () => {
     const search = this.state.value;
-    for(var i=0;i<=20;i+=5){
-    var options = {
-      method: 'GET',
-      url: 'https://shazam.p.rapidapi.com/search',
-      params: {term: search, locale: 'en-US', offset: i, limit: '5'},
-      headers: {
-        'x-rapidapi-key': '424ced4acemsh23df6f0208aa7cap13e211jsn792b6f9f6e00',
-        'x-rapidapi-host': 'shazam.p.rapidapi.com'
-      }
-    };
-    if (search === "") {
-      this.setState({movies: [], isLoading: false})
-    }else if(this.state.isModalOpen == false){
-    axios.request(options).then((response) => {
-      this.setState({movies: this.state.movies.concat(response.data.tracks.hits), isLoading: false});
-      console.log(this.state.movies[0][0]);
-      console.log(this.state.movies);
-    }).catch((error) => {
-      console.error(error);
-    });
-  }
-}
+    // for(var i=0;i<=20;i+=5){
+    // var options = {
+    //   method: 'GET',
+    //   url: 'https://shazam.p.rapidapi.com/search',
+    //   params: {term: search, locale: 'en-US', offset: i, limit: '5'},
+    //   headers: {
+    //     'x-rapidapi-key': 'd9b1070366msh0eb8db71f2246a7p18ddf4jsnf4e9c00c4292',
+    //     'x-rapidapi-host': 'shazam.p.rapidapi.com'
+    //   }
+    // };
+    // if (search === "") {
+    //   this.setState({movies: [], isLoading: false})
+    // }else if(this.state.isModalOpen == false){
+    // axios.request(options).then((response) => {
+    //   this.setState({movies: this.state.movies.concat(response.data.tracks.hits), isLoading: false});
+    //   console.log(response.data);
+    // }).catch((error) => {
+    //   console.error(error);
+    // });
+  // }
+// }
+    this.setState({movies: sample.tracks.hits});
   };
-
+ 
   setPage = (pageNum) => {
     this.setState({i:pageNum, j:pageNum+5});
   }
   componentDidMount = () => {
-    this.getTest();
+    const { history, location } = this.props;
+    if (location.state) {
+      this.getTest();
+    }
+    
   };
 
   handleChange = (e) => {
@@ -68,7 +75,7 @@ class Search extends React.Component {
   };
 
   handleSubmit = (e) => {
-    this.setState({movies: []})
+    this.setState({movies: [], showPageNum:true})
     e.preventDefault();
     this.getTest();
   };
@@ -92,11 +99,10 @@ class Search extends React.Component {
 
                 <ul className="list">
                   {movies.slice(this.state.i, this.state.j).map((movies) => (<SearchMusic key={movies.track.key} id={movies.track.key} url={movies.track.url} images={movies.track.images.coverart} title={movies.track.title} subtitle={movies.track.subtitle} me={this} />))}
-                  <div className="page">
+                  
+                  {this.state.showPageNum ? <PageNum me={this} /> : null}
+                  
               
-                  <a href="javascript:;" onClick={() => this.setPage(0)} >1</a> | <a href="#" onClick={() => this.setPage(5)}>2</a> | <a href="#" onClick={() => this.setPage(10)}>3</a> | <a href="#" onClick={() => this.setPage(15)}>4</a> | <a href="#" onClick={() => this.setPage(20)}>5</a>  
-                    
-                </div>
                 </ul>
                 
                 </div>
