@@ -1,5 +1,5 @@
 import React from "react";
-import "./Detail.css";
+import "./css/Detail.css";
 
 class Detail extends React.Component {
   state = {

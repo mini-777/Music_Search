@@ -1,7 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
 import PropTypes from "prop-types";
-import "./SearchMusic.css";
+import "./css/SearchMusic.css";
 
 function SearchMusic({
     id,

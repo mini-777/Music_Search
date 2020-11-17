@@ -1,7 +1,7 @@
 import React from 'react';
 import SearchMusic from '../components/SearchMusic';
-import "./Search.css";
-import sample from './sample.json';
+import "./css/Search.css";
+import sample from './json/sample.json';
 
 class Search extends React.Component {
     state = {
