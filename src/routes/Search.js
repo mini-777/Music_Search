@@ -17,7 +17,6 @@ class Search extends React.Component {
     };
 
     getTest = () => {
-        const search = this.state.value;
         this.setState({movies: sample.tracks.hits});
     };
 
@@ -42,7 +41,7 @@ class Search extends React.Component {
     };
 
     render() {
-        const {movies, isLoading, name} = this.state;
+        const {movies, isLoading} = this.state;
         localStorage.setItem('items', JSON.stringify(movies));
         return (
             <section className="container">
@@ -84,15 +83,15 @@ class Search extends React.Component {
                                         }
 
                                         <div className="page">
-                                            <a href="javascript:;" onClick={() => this.setPage(0)}>1</a>
+                                            <a href="javascript:" onClick={() => this.setPage(0)}>1</a>
                                             |
-                                            <a href="#" onClick={() => this.setPage(5)}>2</a>
+                                            <a href="javascript:" onClick={() => this.setPage(5)}>2</a>
                                             |
-                                            <a href="#" onClick={() => this.setPage(10)}>3</a>
+                                            <a href="javascript:" onClick={() => this.setPage(10)}>3</a>
                                             |
-                                            <a href="#" onClick={() => this.setPage(15)}>4</a>
+                                            <a href="javascript:" onClick={() => this.setPage(15)}>4</a>
                                             |
-                                            <a href="#" onClick={() => this.setPage(20)}>5</a>
+                                            <a href="javascript:" onClick={() => this.setPage(20)}>5</a>
                                         </div>
                                     </ul>
 

@@ -11,20 +11,20 @@ function SearchMusic({
     images
 }) {
     return (
+        <Link
+            to={{
+                pathname: `/music/${id}`,
+                state: {
+                    id,
+                    title,
+                    subtitle,
+                    images,
+                    url
+                }
+            }}>
         <div className="Music">
-            <Link
-                to={{
-                    pathname: `/music/${id}`,
-                    state: {
-                        id,
-                        title,
-                        subtitle,
-                        images,
-                        url
-                    }
-                }}>
                 <li>
-                    <img className="coverart" src={images} alt={title} title={title}></img>
+                    <img className="coverart" src={images} alt={title} title={title}/>
                     <div className="music__data">
                         <h3 className="music__title">{title.replace(/<b>/gi, "").replace(/<\/b>/gi, "")}</h3>
                         <p className="music__subtitle">
@@ -32,10 +32,10 @@ function SearchMusic({
                         </p>
                     </div>
                 </li>
-            </Link>
-        </div>
+            </div>
+        </Link>
     )
-};
+}
 
 SearchMusic.propTypes = {
     title: PropTypes.string.isRequired,

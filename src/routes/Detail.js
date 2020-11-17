@@ -19,7 +19,7 @@ class Detail extends React.Component {
                 <div className="frame">
                     <p>{this.state.whatIsTitle} {location.state.title}</p>
                     <p>{this.state.whoIsSinger} {location.state.subtitle}</p>
-                    <a href={location.state.url}><img width="400px" height="400px" src={location.state.images}/></a>
+                    <a href={location.state.url}><img width="400px" height="400px" src={location.state.images} alt={location.state.title}/></a>
                 </div>
             );
         } else {
