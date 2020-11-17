@@ -1,283 +1,258 @@
 {
-	"tracks": {
-		"hits": [
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		},
-		{
-			"track": {
-				"title": "hello",
-				"subtitle": "adele",
-				"images":{
-					"coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
-				},
-				"url": "https://www.shazam.com/track/121045044/cat",
-				"key": "121045044"
-			}
-		}
-	
+    "tracks": {
+        "hits": [
+            {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }, {
+                "track": {
+                    "title": "hello",
+                    "subtitle": "adele",
+                    "images": {
+                        "coverart": "https://www.okayplayer.com/wp-content/uploads/2015/10/Screen-Shot-2015-10-22-at-11.28.32-AM.png"
+                    },
+                    "url": "https://www.shazam.com/track/121045044/cat",
+                    "key": "121045044"
+                }
+            }
 
-		]
-		}
+        ]
+    }
 }
