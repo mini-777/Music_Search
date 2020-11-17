@@ -4,7 +4,7 @@ import Search from "./routes/Search";
 import About from "./routes/About";
 import Detail from "./routes/Detail";
 import Navigation from "./components/Navigation";
-import "./App.css";
+import "./css/App.css";
 import SearchBar from "./routes/SearchBar";
 
 function App() {
