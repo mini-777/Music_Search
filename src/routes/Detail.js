@@ -21,7 +21,6 @@ class Detail extends React.Component {
                     <p>{this.state.whoIsSinger} {location.state.subtitle}</p>
                     <a href={location.state.url}><img width="400px" height="400px" src={location.state.images}/></a>
                 </div>
-
             );
         } else {
             return null;

@@ -26,11 +26,7 @@ function SearchMusic({
                 <li>
                     <img className="coverart" src={images} alt={title} title={title}></img>
                     <div className="music__data">
-                        <h3 className="music__title">{
-                                title
-                                    .replace(/<b>/gi, "")
-                                    .replace(/<\/b>/gi, "")
-                            }</h3>
+                        <h3 className="music__title">{title.replace(/<b>/gi, "").replace(/<\/b>/gi, "")}</h3>
                         <p className="music__subtitle">
                             {subtitle}
                         </p>
